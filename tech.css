@@ -1,0 +1,172 @@
+body {
+  font: 100px/1.5, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+html{
+  scroll-behavior: smooth;
+}
+.main-nav{
+  position: sticky;
+  top: 0;
+      
+}
+.container {
+  width: 80%;
+
+  overflow: hidden;
+}
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 30px;
+  min-height: 70px;
+  border-bottom: #efefef 3px solid;
+  
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 40px 0 40px;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li a{
+  text-decoration: none;
+}
+header #branding h1 {
+  float: left;
+  margin-left: 0;
+}
+header.highlight {
+  color: #e8491d;
+}
+
+header.current a {
+  color: #e8491d;
+}
+header span {
+  color: #e8491d;
+}
+header.current {
+  color: #e8491d;
+}
+header a.c1:hover {
+  color: #1de838;
+}
+header a.c1 {
+  color: #e86e1d;
+}
+header span:hover {
+  color: #1de8b5;
+}
+#showcase {
+  min-height: 400;
+  background: url(../images/web.png);
+  text-align: center;
+}
+#showcase p {
+  color: #f32424;
+  text-align: auto;
+}
+#showcase h1 {
+  color: #22afe7;
+  margin-top: 100px;
+}
+#newsletter {
+  padding: 15px;
+  color: #35424a;
+  background-color: #35424a;
+}
+#newsletter h1 {
+  float: left;
+  color: #ffffff;
+}
+#newsletter form {
+  float: right;
+  margin: 0%;
+  padding-top: 20px;
+}
+#newsletter input [type="email"] {
+  padding: 20px;
+  height: 25px;
+  width: 250px;
+}
+.button-1 {
+  color: #ffffff;
+  background-color: #e8491d;
+}
+#boxes {
+  padding: 20px;
+}
+.box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+.box img {
+  width: 90px;
+}
+
+.box p {
+  padding-top: 20px;
+}
+.bpx1 {
+  padding-top: 20px;
+}
+.bpx2 {
+  padding-top: 20px;
+}
+footer {
+  background-color: #35424a;
+  color: #ffffff;
+}
+.container #fotter {
+  display: flex;
+}
+#fotter {
+  width: 100%;
+  margin: 0;
+}
+.flex-item {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 200px;
+}
+nav {
+  float: right;
+  padding: 25px 0 0 0;
+  margin: 0;
+}
+
+header .container {
+  position: sticky;
+  margin: 0;
+  padding: 0;
+}
+footer{
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+@media  only screen and (max-width:1440px) {
+  .box{
+    flex-direction: column;
+  }
+  
+}
